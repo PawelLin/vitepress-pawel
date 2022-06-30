@@ -36,6 +36,13 @@ export default {
                     { text: 'React', link: '/learn/react' },
                     { text: 'Javascript', link: '/learn/javascript' }
                 ]
+            },
+            {
+                text: '组件',
+                collapsible: true,
+                items: [
+                    { text: 'Input输入框', link: '/component/input' }
+                ]
             }
         ]
     }
