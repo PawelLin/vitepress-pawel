@@ -1,5 +1,5 @@
 export default {
-    title: 'VitePress1',
+    title: 'Pawel',
     description: 'Just playing around.',
     themeConfig: {
         nav: [
@@ -42,6 +42,13 @@ export default {
                 collapsible: true,
                 items: [
                     { text: 'Input输入框', link: '/component/input' }
+                ]
+            },
+            {
+                text: '书籍',
+                collapsible: true,
+                items: [
+                    { text: '你不知道的Javascript(上卷)', link: '/book/you-dont-know-JS-one' }
                 ]
             }
         ]
