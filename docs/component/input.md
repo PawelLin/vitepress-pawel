@@ -17,7 +17,7 @@ const inputIdCard = ref('610402198203115081')
 # Input输入框
 支持输入限制及格式化
 
-## 事件顺序
+## 输入处理
 输入经过的事件顺序
 1. keydown
     - 记录按键按下时的光标位置`selectionEnd`；
@@ -35,12 +35,12 @@ const inputIdCard = ref('610402198203115081')
 <span style="color: var(--vp-c-brand);">0\. 手动更改焦点input的值(与原值不同)，光标会跳转到最后面，需要手动设置光标；</span><br>
 1\. 事件触发时机：按键按下 - 依次触发`keydown`,`input` - 按键松开 - 触发`keyup`；<br>
 2\. 到达设置最大长度：任意输入内容，光标不会向后移动；<br>
-**综上，PC环境将设置光标放在input事件。**
+**综上，PC环境将设置光标放在<span style="color: var(--vp-c-red);">input</span>事件。**
 - Mobile<br>
 <span style="color: var(--vp-c-brand);">0\. 手动更改焦点input的值(与原值不同)，光标会跳转到最后面，需要手动设置光标；</span><br>
 1\. 事件触发时机：按键按下 - 触发`keydown` - 按键松开 - 依次触发`input`,`keyup`；<br>
 2\. 到达设置最大长度：任意输入内容，光标会向后移动，此时不触发`input`；<br>
-**综上，Mobile环境将设置光标放在keyup事件。**
+**综上，Mobile环境将设置光标放在<span style="color: var(--vp-c-red);">keyup</span>事件。**
 :::
 
 ## 基础用法
