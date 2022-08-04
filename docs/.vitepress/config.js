@@ -50,6 +50,13 @@ export default {
                 items: [
                     { text: '你不知道的Javascript(上卷)', link: '/book/you-dont-know-JS-one' }
                 ]
+            },
+            {
+                text: '其他',
+                collapsible: true,
+                items: [
+                    { text: 'css兼容', link: '/other/css' }
+                ]
             }
         ]
     }
