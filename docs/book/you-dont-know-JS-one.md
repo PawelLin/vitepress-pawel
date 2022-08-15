@@ -36,3 +36,24 @@
 词法作用域是在写代码或者说定义时确定的，而动态作用域是在运行时确定的。（this也是！）
 
 ## 第1章 关于this
+1. this既不指向函数自身也不指向函数的词法作用域。
+2. this实际上是在函数被调用时发生的绑定，它指向什么完全取决于函数在哪里被调用。
+函数被调用时，会创建一个活动记录(执行上下文)，this是这个记录的一个属性，会在函数执行的过程中用到。<br>
+3. 一个活动记录(执行上下文)包含：
+* 调用栈(函数在哪里被调用)
+* 函数的调用方式
+* 传入的参数
+4. 绑定规则
+* 默认绑定 `foo()`
+* 隐式绑定 `obj.foo()`
+* 显式绑定 `foo.call(obj); [].forEach(foo, obj)`
+* new 绑定 `new foo()`
+* 箭头函数不使用以上的绑定规则，而是继承外层函数调用的this绑定。
+## 第3章 对象
+1. 语法
+* 两种形式定义：声明(文字)形式和构造形式。
+2. 类型
+
+| 简单基本类型 | 复杂基本类型 | 内置对象 |
+| ------------| ------------| ------- |
+| string<br>number<br>boolean<br>null<br>undefined<br>symbol | object<br> | String<br>Number<br>Boolean<br>Object<br>Function<br>Array<br>Date<br>RegExp<br>Error |
