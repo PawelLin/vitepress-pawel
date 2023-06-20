@@ -18,6 +18,7 @@ export default {
                 text: 'project',
                 collapsible: true,
                 items: [
+                    { text: 'summary', link: '/project/summary' },
                     { text: 'iview-pc', link: '/project/iview-pc' },
                     { text: 'admin-vite-antdesign', link: '/project/admin-vite-antdesign' },
                 ]
@@ -49,6 +50,22 @@ export default {
                 collapsible: true,
                 items: [
                     { text: '你不知道的Javascript(上卷)', link: '/book/you-dont-know-JS-one' }
+                ]
+            },
+            {
+                text: '文章',
+                collapsible: true,
+                items: [
+                    { text: 'git常用命令', link: '/article/git' },
+                    { text: 'SVN常用命令', link: '/article/svn' },
+                    { text: 'git生成SSH公钥', link: '/article/git-ssh' },
+                    { text: '常用的Javascript方法封装', link: '/article/js-funcs' },
+                    { text: '用CSS的Grid布局画飞行棋盘', link: '/article/fight-chess' },
+                    { text: 'Date', link: '/article/date' },
+                    { text: '一些HTML', link: '/article/some-html' },
+                    { text: '一些CSS', link: '/article/some-css' },
+                    { text: '一些正则', link: '/article/some-regular' },
+                    { text: 'Input输入限制及格式化', link: '/article/input-limit' },
                 ]
             },
             {
