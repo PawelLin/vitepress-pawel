@@ -4,10 +4,11 @@
 set -e
 
 # 构建
+rm -rf docs/.vitepress/dist
 npm run docs:build
 
 # 进入构建文件夹
-cd dist
+cd docs/.vitepress/dist
 
 # 如果你要部署到自定义域名
 # echo 'www.example.com' > CNAME
@@ -22,6 +23,6 @@ git commit -m 'deploy'
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
 #git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
-git push -f git@github.com:pawellin/vitepress-pawel.git master:gh-pages
+git push -f git@github.com:pawellin/vitepress-pawel.git deploy:gh-pages
 
 cd -

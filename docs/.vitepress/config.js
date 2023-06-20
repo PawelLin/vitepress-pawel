@@ -1,5 +1,6 @@
 export default {
     title: 'Pawel',
+    base: '/vitepress-pawel',
     description: 'Just playing around.',
     themeConfig: {
         nav: [
