@@ -17,6 +17,6 @@
     "vitepress": "^1.0.0-alpha.1"
   },
   "dependencies": {
-    "vue3-pawel-ui": "^0.1.5"
+    "pawel-record-vue": "^0.0.2"
   }
 }
