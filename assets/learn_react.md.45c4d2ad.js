@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./app.b422cb96.js";const l='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"learn/react.md"}',r={name:"learn/react.md"};function c(n,o,s,_,p,d){return t(),a("div")}var m=e(r,[["render",c]]);export{l as __pageData,m as default};

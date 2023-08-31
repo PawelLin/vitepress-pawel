@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as o}from"./app.b422cb96.js";const i='{"title":"Date","description":"","frontmatter":{},"headers":[],"relativePath":"article/date.md"}',l={name:"article/date.md"},p=o("",2),e=[p];function t(c,r,C,D,y,A){return a(),n("div",null,e)}var _=s(l,[["render",t]]);export{i as __pageData,_ as default};
