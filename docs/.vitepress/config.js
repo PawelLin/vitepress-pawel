@@ -36,7 +36,8 @@ export default {
                 collapsible: true,
                 items: [
                     { text: 'React', link: '/learn/react' },
-                    { text: 'Javascript', link: '/learn/javascript' }
+                    { text: 'Javascript', link: '/learn/javascript' },
+                    { text: 'Echarts', link: '/learn/echarts' },
                 ]
             },
             {
